@@ -1,4 +1,8 @@
-<img width="1198" height="769" alt="Screenshot from 2025-09-06 15-44-47" src="https://github.com/user-attachments/assets/2a1b60b6-8fe5-4b24-abea-e16c5adf7ad4" /># Distributed Multi-Room TCP Chat Platform
+<img width="1198" height="769" alt="Screenshot from 2025-09-06 15-44-47" src="https://github.com/user-attachments/assets/2a1b60b6-8fe5-4b24-abea-e16c5adf7ad4" />
+<img width="1210" height="778" alt="Screenshot from 2025-09-06 15-47-34" src="https://github.com/user-attachments/assets/345713cf-92f2-4d79-a6ed-91fc7b7eaa4d" />
+
+
+# Distributed Multi-Room TCP Chat Platform
 
 A comprehensive, secure, and scalable chat platform implementing advanced networking concepts including multi-room architecture, TLS encryption, Quality of Service (QoS), and performance monitoring.
 
@@ -180,9 +184,6 @@ ls monitoring/graphs/
 # مشاهده با image viewer
 xdg-open monitoring/graphs/processing_times.png
 ```
-
-![Uploading Screenshot from 2025-09-06 15<img width="1210" height="778" alt="Screenshot from 2025-09-06 15-47-34" src="https://github.com/user-attachments/assets/6df79e28-19dc-4443-9508-8afc801f8002" />
--44-47.png…]()
 
 
 
