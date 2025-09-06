@@ -42,21 +42,24 @@ sudo apt install python3-pip python3-dev openssl
 
 # Python packages
 pip3 install -r requirements.txt
+```
 
 ### SSL Certificate Generation
-bash
+```bash
 cd certificates
 openssl req -x509 -newkey rsa:4096 -keyout server-key.pem -out server-cert.pem -days 365 -nodes
-
+```
 ## Usage
 
 ### Starting the Server
-bash
+bash```
 python3 server/server.py
+```
 
 ### Running the Client
-bash
+bash```
 python3 client/client.py
+```
 
 ### Client Commands
 - `/help` - Show available commands
@@ -72,14 +75,16 @@ python3 client/client.py
 ## Performance Testing
 
 ### Load Testing
-bash
+bash```
 # Run load test with 50 concurrent clients
 python3 tests/load_test.py 50
+```
 
 ### Security Testing
-bash
+bash```
 # Test SSL encryption and authentication
 sudo python3 tests/security_test.py
+```
 
 ## Monitoring
 
