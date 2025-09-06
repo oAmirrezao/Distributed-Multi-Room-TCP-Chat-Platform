@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Distributed Multi-Room TCP Chat Platform
 
 A comprehensive, secure, and scalable chat platform implementing advanced networking concepts including multi-room architecture, TLS encryption, Quality of Service (QoS), and performance monitoring.
@@ -135,3 +136,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ```bash
 cd ~/distributed-chat-platform
 python3 server/server.py
+>>>>>>> 4c33e66fe53ae2cafe965a3b3f521ea9f847ab18
