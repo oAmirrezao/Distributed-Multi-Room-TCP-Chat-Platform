@@ -141,3 +141,43 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 cd ~/distributed-chat-platform
 python3 server/server.py
 ```
+### 2. اجرای کلاینت(در ترمینال جدید):
+```
+cd ~/distributed-chat-platform
+python3 client/client.py
+```
+
+### 3. سناریوی تست کامل:
+```
+import asyncio
+import ssl
+import sys
+import json
+from pathlib import Path
+from datetime import datetime
+import threading
+from colorama import init, Fore, Style
+
+sys.path.append(str(Path(__file__).parent.parent))
+
+from common.protocol import Message, MessageType, Priority
+
+# Import from current directory
+from ui_manager import UIManager
+from file_manager import FileManager
+```
+
+### 4. اجرای تست بار:
+
+```
+python3 tests/load_test.py 20
+```
+
+### 5. مشاهده گراف‌های عملکرد:
+
+```
+ls monitoring/graphs/
+# مشاهده با image viewer
+xdg-open monitoring/graphs/processing_times.png
+```
+
