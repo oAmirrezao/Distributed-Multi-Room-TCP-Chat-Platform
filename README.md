@@ -137,7 +137,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### 1. اجرای سرور:
 
-bash```
+```
 cd ~/distributed-chat-platform
 python3 server/server.py
 ```
